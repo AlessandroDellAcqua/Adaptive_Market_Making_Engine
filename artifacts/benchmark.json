@@ -1,0 +1,14 @@
+{
+  "book": {
+    "submitted_orders": 20000.0,
+    "insert_seconds": 0.06589208399964264,
+    "insert_orders_per_second": 303526.596610732,
+    "active_orders_after_cancels": 10000.0
+  },
+  "simulation": {
+    "paths": 20.0,
+    "simulation_seconds": 0.041057792004721705,
+    "intervals_per_second": 48711.825510977236,
+    "mean_final_pnl": 0.12399999999906867
+  }
+}

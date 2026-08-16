@@ -1,0 +1,110 @@
+{
+  "manifest": "lob_sim.experiment_manifest.v1",
+  "paired_comparisons_vs_naive": {
+    "avellaneda_stoikov": {
+      "bootstrap_ci95_high": 0.3139099999919817,
+      "bootstrap_ci95_low": 0.18548249999606561,
+      "mean_delta_pnl": 0.2460999999930209,
+      "pairs": 100.0,
+      "probability_candidate_beats": 0.76,
+      "standard_error": 0.03347632813504135,
+      "std_delta_pnl": 0.3347632813504135
+    },
+    "inventory_skew": {
+      "bootstrap_ci95_high": 0.022099999998052226,
+      "bootstrap_ci95_low": -0.0015025000012901725,
+      "mean_delta_pnl": 0.010499999998719431,
+      "pairs": 100.0,
+      "probability_candidate_beats": 0.54,
+      "standard_error": 0.005998947719089827,
+      "std_delta_pnl": 0.05998947719089827
+    },
+    "microstructure_adaptive": {
+      "bootstrap_ci95_high": 0.05190249999461592,
+      "bootstrap_ci95_low": 0.009597499992294615,
+      "mean_delta_pnl": 0.029499999994586686,
+      "pairs": 100.0,
+      "probability_candidate_beats": 0.52,
+      "standard_error": 0.011285438011453324,
+      "std_delta_pnl": 0.11285438011453325
+    }
+  },
+  "summary": {
+    "avellaneda_stoikov": {
+      "expected_shortfall_p05": -0.0016216216219519894,
+      "mean_drawdown": 0.2663000000001921,
+      "mean_fill_rate": 0.009,
+      "mean_filled_quantity_rate": 0.0048918002818146775,
+      "mean_final_pnl": 0.22199999999982536,
+      "mean_inventory_rms": 0.7380273597515984,
+      "mean_max_abs_inventory": 1.05,
+      "mean_max_drawdown_pct": 2.6629834085594993e-06,
+      "mean_pnl_per_second": 0.01109999999999127,
+      "mean_pnl_per_traded_unit": 0.08064071428579013,
+      "mean_quote_to_trade_ratio": 79.16587301587302,
+      "p05_final_pnl": 0.0,
+      "p50_final_pnl": 0.1300000000046566,
+      "p95_final_pnl": 0.8310000000019498,
+      "paths": 100.0,
+      "standard_error": 0.030562735611661736,
+      "std_final_pnl": 0.30562735611661734
+    },
+    "inventory_skew": {
+      "expected_shortfall_p05": -0.21999999998079148,
+      "mean_drawdown": 0.22964999999894645,
+      "mean_fill_rate": 0.0905,
+      "mean_filled_quantity_rate": 0.04557320414654096,
+      "mean_final_pnl": -0.013599999994476093,
+      "mean_inventory_rms": 1.3209841241662474,
+      "mean_max_abs_inventory": 2.47,
+      "mean_max_drawdown_pct": 2.2964966416374003e-06,
+      "mean_pnl_per_second": -0.0006799999997238046,
+      "mean_pnl_per_traded_unit": -0.002002762235208761,
+      "mean_quote_to_trade_ratio": 23.162936912317633,
+      "p05_final_pnl": -0.1310000000317814,
+      "p50_final_pnl": -0.004999999968276825,
+      "p95_final_pnl": 0.09049999998314885,
+      "paths": 100.0,
+      "standard_error": 0.0076798569005758505,
+      "std_final_pnl": 0.0767985690057585
+    },
+    "microstructure_adaptive": {
+      "expected_shortfall_p05": -0.23799999999755528,
+      "mean_drawdown": 0.22124999999956343,
+      "mean_fill_rate": 0.0499,
+      "mean_filled_quantity_rate": 0.03289070674235853,
+      "mean_final_pnl": 0.0054000000013911635,
+      "mean_inventory_rms": 1.616019395750587,
+      "mean_max_abs_inventory": 2.72,
+      "mean_max_drawdown_pct": 2.2124967588618898e-06,
+      "mean_pnl_per_second": 0.0002700000000695582,
+      "mean_pnl_per_traded_unit": -0.0018480259157912153,
+      "mean_quote_to_trade_ratio": 38.426687278635725,
+      "p05_final_pnl": -0.1704999999703432,
+      "p50_final_pnl": -1.4551915228366852e-11,
+      "p95_final_pnl": 0.15100000000675204,
+      "paths": 100.0,
+      "standard_error": 0.010003453948753132,
+      "std_final_pnl": 0.10003453948753133
+    },
+    "naive_symmetric": {
+      "expected_shortfall_p05": -0.28799999998300335,
+      "mean_drawdown": 0.2803499999990163,
+      "mean_fill_rate": 0.1,
+      "mean_filled_quantity_rate": 0.050379988426738284,
+      "mean_final_pnl": -0.024099999993195523,
+      "mean_inventory_rms": 2.3202937469017786,
+      "mean_max_abs_inventory": 3.98,
+      "mean_max_drawdown_pct": 2.8034952458738538e-06,
+      "mean_pnl_per_second": -0.0012049999996597762,
+      "mean_pnl_per_traded_unit": -0.002544751438360257,
+      "mean_quote_to_trade_ratio": 20.74650542696777,
+      "p05_final_pnl": -0.2404999999605934,
+      "p50_final_pnl": -0.00999999999476131,
+      "p95_final_pnl": 0.11050000001559962,
+      "paths": 100.0,
+      "standard_error": 0.0101991235509471,
+      "std_final_pnl": 0.10199123550947099
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "configuration": {
+    "adaptive_strategy": {
+      "fill_decay_k": 0.5,
+      "flow_kappa": 1.0,
+      "gamma": 0.1,
+      "half_width_ticks": 1.0,
+      "horizon_seconds": 20.0,
+      "imbalance_kappa": 1.5,
+      "inventory_kappa": 2.0,
+      "max_half_width_ticks": 20.0,
+      "max_order_size": 1,
+      "min_half_width_ticks": 1.0,
+      "reference_mode": "microprice",
+      "toxicity_size_scale": 0.8,
+      "toxicity_width_kappa": 2.0,
+      "volatility_floor_ticks": 0.01,
+      "volatility_width_kappa": 0.15
+    },
+    "event_tape": "event_tape_seed0.json",
+    "simulation": {
+      "depth": 11,
+      "drift_ticks_per_second": 0.0,
+      "dt_seconds": 0.1,
+      "fee_per_unit": 0.005,
+      "fee_rate": 0.0,
+      "fill_decay_k": 0.5,
+      "fill_intensity": 2.0,
+      "flow_bias": 0.0,
+      "half_spread_ticks": 2,
+      "horizon_seconds": 20.0,
+      "initial_cash": 100000.0,
+      "initial_price_ticks": 10000,
+      "latency_seconds": 0.0,
+      "liquidation_slippage_ticks": 2,
+      "max_market_spread_ticks": 20,
+      "q_max": 10,
+      "q_scale": 10.0,
+      "q_target": 0,
+      "queue_decay_rho": 0.0,
+      "queue_scale_units": 10.0,
+      "tick_value": 0.01,
+      "volatility_decay_seconds": 5.0,
+      "volatility_floor_ticks": 0.01,
+      "volatility_ticks": 5.0
+    },
+    "strategy": {
+      "fill_decay_k": 0.5,
+      "flow_kappa": 0.0,
+      "gamma": 0.15,
+      "half_width_ticks": 1.0,
+      "horizon_seconds": 20.0,
+      "imbalance_kappa": 0.0,
+      "inventory_kappa": 2.0,
+      "max_half_width_ticks": 20.0,
+      "max_order_size": 1,
+      "min_half_width_ticks": 1.0,
+      "reference_mode": "midprice",
+      "toxicity_size_scale": 0.0,
+      "toxicity_width_kappa": 0.0,
+      "volatility_floor_ticks": 0.01,
+      "volatility_width_kappa": 0.0
+    }
+  },
+  "environment": {
+    "machine": "arm64",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "python_version": "3.12.9 (v3.12.9:fdb81425a9a, Feb  4 2025, 12:21:36) [Clang 13.0.0 (clang-1300.0.29.30)]"
+  },
+  "execution_mode": "external_qr_platform_persisted_replay",
+  "experiment_name": "external_lob_persisted_replay",
+  "format": "lob_sim.experiment_manifest.v1",
+  "generated_at_utc": "2026-08-16T14:13:31.142461+00:00",
+  "git": {
+    "dirty": null,
+    "revision": null
+  },
+  "input_digests": {
+    "event_tape": "1ba2142cf727b9798ed41d6a938ea74c2bc54162da956d0d31f8c0790ace625a"
+  },
+  "seeds": [
+    0
+  ],
+  "source_digests": {
+    "external_simulator": "b552a326b7b6c6628dacbb17532705e74cdde9d6d4e5b44bbf708e8da006bd14",
+    "repository": "66fab2cece3c42f6c8e54863fc8858c15551052ad6c2a70515b388f88d529fa4"
+  },
+  "strategies": [
+    "naive_symmetric",
+    "inventory_skew",
+    "avellaneda_stoikov",
+    "microstructure_adaptive"
+  ]
+}
