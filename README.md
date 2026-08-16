@@ -185,23 +185,6 @@ Measure the current correctness-first baseline with:
 python scripts/benchmark.py --orders 20000 --paths 20 --output artifacts/benchmark.json
 ```
 
-## Project status
-
-The initial implementation milestones are complete. Remaining work is
-execution realism and deeper research experiments:
-
-- [x] accounting and state representation;
-- [x] deterministic event-driven intensity simulator;
-- [x] naive and inventory-aware strategies;
-- [x] volatility, fills, and Avellaneda-Stoikov quoting;
-- [x] experiments, plots, paired comparisons, manifests, and technical report;
-- [x] order-book integration, latency, and queue effects;
-- [x] stress matrix;
-- [x] measured performance benchmark;
-- [x] external Project 1 LOB adapter and event-driven strategy comparison.
-- [x] persisted external event-tape generation and replay.
-- [x] causal toxic-flow treatment and executable bid/ask inventory marking.
-
 ## Reproducibility principles
 
 - Every experiment has an explicit configuration and seed.
